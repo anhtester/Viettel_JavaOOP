@@ -6,6 +6,12 @@ public class SinhVien {
     private String address;
     private String className;
 
+
+    public SinhVien(String a, int b, String c){
+
+    }
+
+
     //Hàm xây dựng không có tham số
     public SinhVien(){
         name = "Phương";
@@ -26,8 +32,15 @@ public class SinhVien {
 
     }
 
+    public SinhVien(int name, int age){
+
+    }
+
     public void printInfo(){
-        System.out.println("ABC");
+        System.out.println(name);
+        System.out.println(age);
+        System.out.println(address);
+        System.out.println(className);
     }
 
     //Các hàm truy xuất thông tin
