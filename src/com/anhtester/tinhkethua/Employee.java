@@ -2,7 +2,8 @@ package com.anhtester.tinhkethua;
 
 public class Employee extends Person{
     public Employee(String name, int age, float height){
-        super(name, age, height);
+        //super(name, age, height);
+        super();
     }
 
     public static void main(String[] args) {

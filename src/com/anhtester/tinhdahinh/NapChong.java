@@ -18,6 +18,11 @@ public class NapChong {
         System.out.println("Address: " + address);
     }
 
+    public void getInfo(String name, int address) {
+        System.out.println("Name: " + name);
+        System.out.println("Address: " + address);
+    }
+
     public void login(String url, String email, String password) {
         //Login bình thường
     }
